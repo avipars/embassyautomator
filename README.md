@@ -23,3 +23,6 @@ TLDR it just automates the first two steps of the process for now... I am really
 and feel free to contribute ideas and code!
 
 <a href="https://www.buymeacoffee.com/shirabira"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=shirabira&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
+
+
+And join our alerts group! https://www.buymeacoffee.com/shirabira/e/44937 
