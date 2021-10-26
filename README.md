@@ -16,3 +16,10 @@ https://evisaforms.state.gov/acs/default.asp?postcode=JRS&appcode=1 for example
 Then paste the code in the console, click enter... then wait a few seconds... you'll need to do this for make appt as well as the next screen
 
 After, you will proceed as normal and change months or years... and if there is an opening... fill out as usual 
+
+
+TLDR it just automates the first two steps of the process for now... I am really busy so please don't PM me... just open an issue on this repo with questions... this works in Chrome and Edge for Desktop only (Firefox requires an extra step or two)...
+
+and feel free to contribute ideas and code!
+
+<a href="https://www.buymeacoffee.com/shirabira"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=shirabira&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
