@@ -28,3 +28,8 @@ and feel free to contribute code!
 
 
 And join our alerts group! https://www.buymeacoffee.com/shirabira/e/44937 
+
+
+And our deals group (if you are in the US, UK, or Israel) 
+https://www.aviparshan.com/israeldeals/index.html?utm_source=embautomate
+
