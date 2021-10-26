@@ -5,14 +5,14 @@ return new Promise((resolve) => setTimeout(resolve, ms));
 
     try {
         document.querySelector('input[value="Make Appointment!"]').click();
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
     
     try {
         document.querySelector('input[value="AA"]').click();
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
@@ -20,36 +20,42 @@ return new Promise((resolve) => setTimeout(resolve, ms));
 
     try {
         document.querySelector('input[name="chkbox01"]').click();
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
     
     try {
         document.querySelector('input[value="Submit"]').click();
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
     
     try {
         document.querySelector('select[value="12"]').click();
-        await sleep(3000);
+        await sleep(2000);
+    } catch (err) {
+      console.log("Encountered  error. Please try again later: " + err);
+    }
+
+ try {
+        document.getElementById("Select1").selectedIndex = 10; //nov
+        await sleep(4000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
 
     try {
         document.getElementById("Select1").selectedIndex = 11; //december
-        await sleep(3000);
+        await sleep(4000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
 
-    
     try {
         document.getElementById("Select2").selectedIndex = 1; // 2022
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
@@ -57,7 +63,7 @@ return new Promise((resolve) => setTimeout(resolve, ms));
             
     try {
         document.getElementById("Select1").selectedIndex = 0; //jan
-        await sleep(3000);
+        await sleep(2000);
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
