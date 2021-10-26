@@ -15,10 +15,10 @@ https://evisaforms.state.gov/acs/default.asp?postcode=JRS&appcode=1 for example
 
 Then paste the code in the console, click enter... then wait a few seconds... you'll need to do this for make appt as well as the next screen
 
-After, you will proceed as normal and change months or years... and if there is an opening... fill out as usual 
+After, you will proceed as normal and change months or years (you can run our script here again if you want) ... and if there is an opening... fill out as usual 
 
 
-TLDR it just automates the first two steps (by using JS to click on elements) of the process for now... I am really busy so please don't PM me... just open an issue on this repo with questions... this works in Chrome and Edge for Desktop only (Firefox requires an extra step or two)...
+TLDR it just automates the first two/three steps (by using JS to click on elements) of the process for now... I am really busy so please don't PM me... just open an issue on this repo with questions... this works in Chrome and Edge for Desktop only (Firefox requires an extra step or two)...
 
 No scraping or anythign illegal is happening... just clicks on some elements for you to save time. 
 
