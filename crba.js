@@ -3,17 +3,17 @@
 function sleep(ms) {
 return new Promise((resolve) => setTimeout(resolve, ms));
 }
-//crba
+
 try {
 document.querySelector('input[value="Make Appointment!"]').click();
-await sleep(3000);
+await sleep(2000);
 } catch (err) {
 console.log("Encountered error. Please try again later: " + err);
 }
 
 try {
     document.querySelector('input[value="02B"]').click();
-    await sleep(3000);
+    await sleep(2000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
@@ -21,28 +21,29 @@ try {
 
 try {
     document.querySelector('input[name="chkbox01"]').click();
-    await sleep(3000);
+    await sleep(2000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
 
 try {
     document.querySelector('input[value="Submit"]').click();
-    await sleep(3000);
+    await sleep(2000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
 
 try {
-    document.querySelector('select[value="12"]').click();
-    await sleep(3000);
+    document.getElementById("Select1").selectedIndex = 10; //nov
+    await sleep(4000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
+
 
 try {
     document.getElementById("Select1").selectedIndex = 11; //december
-    await sleep(3000);
+    await sleep(4000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
