@@ -17,7 +17,6 @@ return new Promise((resolve) => setTimeout(resolve, ms));
       console.log("Encountered  error. Please try again later: " + err);
     }
     
-
     try {
         document.querySelector('input[name="chkbox01"]').click();
         await sleep(2000);
@@ -32,12 +31,6 @@ return new Promise((resolve) => setTimeout(resolve, ms));
       console.log("Encountered  error. Please try again later: " + err);
     }
     
-    try {
-        document.querySelector('select[value="12"]').click();
-        await sleep(2000);
-    } catch (err) {
-      console.log("Encountered  error. Please try again later: " + err);
-    }
 
  try {
         document.getElementById("Select1").selectedIndex = 10; //nov
