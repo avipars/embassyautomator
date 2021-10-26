@@ -22,7 +22,11 @@ TLDR it just automates the first two/three steps (by using JS to click on elemen
 
 No scraping or anythign illegal is happening... just clicks on some elements for you to save time. 
 
+https://raw.githubusercontent.com/avipars/embassyautomator/main/passport.js
+https://raw.githubusercontent.com/avipars/embassyautomator/main/crba.js
 and feel free to contribute code!
+
+
 
 <a href="https://www.buymeacoffee.com/shirabira"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=shirabira&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"></a>
 
