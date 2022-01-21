@@ -20,7 +20,7 @@ After, you will proceed as normal and change months or years (you can run our sc
 
 TLDR it just automates the first two/three steps (by using JS to click on elements) of the process for now... I am really busy so please don't PM me... just open an issue on this repo with questions... this works in Chrome and Edge for Desktop only (Firefox requires an extra step or two)...
 
-No scraping or anythign illegal is happening... just clicks on some elements for you to save time. 
+No scraping is happening... just clicks on some elements for you to save time. 
 
 https://raw.githubusercontent.com/avipars/embassyautomator/main/passport.js
 https://raw.githubusercontent.com/avipars/embassyautomator/main/crba.js
