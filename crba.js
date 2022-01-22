@@ -3,7 +3,8 @@
 function sleep(ms) {
 return new Promise((resolve) => setTimeout(resolve, ms));
 }
-
+var test = true;  
+while(test){
 try {
 document.querySelector('input[value="Make Appointment!"]').click();
 await sleep(2000);
@@ -61,4 +62,5 @@ try {
     await sleep(3000);
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
+}
 }
