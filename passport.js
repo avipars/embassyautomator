@@ -68,4 +68,21 @@ while(test){
     } catch (err) {
       console.log("Encountered  error. Please try again later: " + err);
     }
+    
+    try{
+        var slot =  document.querySelector('tr> td.formfield[bgcolor="#ffffc0"] > a'); 
+
+if(slot != null){
+//var location = document.querySelector("tr:nth-child(1) > td.tblheader").textContent;
+	var head = document.querySelector("body > center > h3").textContent;
+	
+	
+	 
+    alert(head + " " + location); 
+	console.log(head + " " + location); 
+}
+    }
+    catch(err){
+         console.log("Encountered  error. Please try again later: " + err);
+    }
 }
