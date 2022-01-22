@@ -63,4 +63,11 @@ try {
 } catch (err) {
   console.log("Encountered  error. Please try again later: " + err);
 }
+    
+     try {
+        document.querySelector('tr> td.formfield[bgcolor="#ffffc0"] > a').click(); //click open slot
+        await sleep(2000);
+    } catch (err) {
+      console.log("Encountered  error. Please try again later: " + err);
+    }
 }
